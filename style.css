@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, #ff0065, #000066);
+    overflow-x: hidden; 
+}
+
+#cuadrado {
+    position: relative;
+    top: 12rem;
+    left: 50%;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+}
+
+#circulo {
+    position: relative;
+    top: 369px;
+    left: 50%;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background-color: #fff;
+}
